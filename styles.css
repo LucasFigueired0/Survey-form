@@ -34,13 +34,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid black; */
+    
 }
 
 .text-zone {
     text-align: center;
     align-items: center;
-    /* border: 1px solid black; */
 }
 
 #titulo-welcome {
@@ -55,7 +54,16 @@
     margin-bottom: 20px;
 }
 
+.link-botao{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+} 
+
 #button01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
     border: none;
     width: 200px;
@@ -64,7 +72,6 @@
     background-color: #3EB25E;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
 }
 
 #button02 {
@@ -73,10 +80,15 @@
 
 #text-button {
     font-size: 22px;
-    visibility: hidden;
+    text-align: center;
+    vertical-align: middle;
     text-decoration: none;
     color: #000000;
+    visibility: hidden;
+   
 }
+
+
 
 @media screen and (max-width:890px) {
     #imagem01 {
@@ -180,8 +192,18 @@
         display: none;
     }
 
+    .link-botao02{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+    } 
+
+
     #button02 {
-        display: inline;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-bottom: 50px;
         border: none;
         width: 50%;
@@ -193,8 +215,4 @@
         font-size: 22px;
     }
 
-    #text-button02 {
-        text-decoration: none;
-        color: #FFFFFF;
-    }
 }

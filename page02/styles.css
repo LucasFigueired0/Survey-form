@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+    grid-template-areas:
+        "box-1 box-2";
+
+    height: auto;
+}
+
+.box-1 {
+    grid-area: box-1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.box-2 {
+    grid-area: box-2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    */
+}
+
+.text {
+    margin-top: 20%;
+    display: block;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+.text-zone {
+    /* border: 1px solid black; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+}
+
+.text-zone h1 {
+    font-size: 39px;
+}
+
+.text-zone p {
+    margin-top: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.buttons-zone {
+    margin-top: 50px;
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end
+}
+
+.link-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin: 10px;
+    border: none;
+    width: 200px;
+    height: 36px;
+    border-radius: 15px;
+    background-color: #3EB25E;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.button03, .button04{
+    display: none;
+}
+
+.text-button {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#imagem01 {
+    margin-top: 10%;
+}
+
+@media screen and (max-width:1000px) {
+
+    .text-zone h1 {
+        font-size: 35px;
+    }
+
+    .text-zone p {
+        margin-top: 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .buttons-zone {
+        margin-top: 50px;
+        display: flex;
+
+        justify-content: center;
+        align-items: flex-end
+    }
+
+    .button {
+        margin-top: 50px;
+        margin: 10px;
+        border: none;
+        width: 180px;
+        height: 36px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .text-button {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 22px;
+    }
+
+    #imagem01 {
+        margin-top: 10%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    .text-zone h1 {
+        font-size: 30px;
+    }
+
+    .text-zone p {
+        margin-top: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .buttons-zone {
+        margin-top: 50px;
+        display: flex;
+
+        justify-content: center;
+        align-items: flex-end
+    }
+
+    .button {
+        margin-top: 50px;
+        margin: 10px;
+        border: none;
+        width: 160px;
+        height: 36px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+
+    }
+
+    .text-button {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+
+    #imagem01 {
+        margin-top: 10%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:810px) {
+
+    .text-zone h1 {
+        font-size: 28px;
+    }
+
+    .text-zone p {
+        margin-top: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .buttons-zone {
+        margin-top: 50px;
+        display: flex;
+
+        justify-content: center;
+        align-items: flex-end
+    }
+
+    .button {
+        margin-top: 50px;
+        margin: 10px;
+        border: none;
+        width: 150px;
+        height: 36px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+
+    }
+
+    .text-button {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+
+    #imagem01 {
+        margin-top: 10%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .text-zone h1 {
+        font-size: 25px;
+    }
+
+    .text-zone p {
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttons-zone {
+        margin-top: 50px;
+        display: flex;
+
+        justify-content: center;
+        align-items: flex-end
+    }
+
+    .button {
+        margin-top: 50px;
+        margin: 5px;
+        border: none;
+        width: 140px;
+        height: 32px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+
+    }
+
+    .text-button {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+
+    #imagem01 {
+
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .container {
+        display: block;
+    }
+
+    .box-1 {
+        display: flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .box-2 {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid black; */
+        
+    }
+
+    .text-zone h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .text-zone p {
+        margin-top: 10px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .buttons-zone {
+        margin-top: 50px;
+        display: flex;
+
+        justify-content: center;
+        align-items: flex-end
+    }
+
+    .link-botao1{
+        display: flex;
+        text-decoration: none;
+    }
+
+    .button_ {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 30px;
+        margin: 5px;
+        margin-bottom: 50px;
+        border: none;
+        width: 130px;
+        height: 32px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .text-button {
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .button01, .button02{
+        display: none;
+    }
+
+    .button03, .button04{
+        display:flex;
+    }
+
+    #imagem01 {
+        height: 250px;
+        margin-bottom: 0;
+    }
+
+}
