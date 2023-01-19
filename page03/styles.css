@@ -95,6 +95,10 @@
     text-decoration: none;
 }
 
+.link-botao{
+    width: 50%
+}
+
 .button {
     display: flex;
     justify-content: center;
@@ -110,6 +114,43 @@
     font-weight: bold;
     font-size: 22px;
     margin-bottom: 0;
+}
+
+.button01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    
+    margin-right: 5%;
+    border: none;
+    width: 100%;
+   /index.html
+    border-radius: 15px;
+    background-color: #3EB25E;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0;
+    
+}
+
+.button02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    margin-left: 7%;
+    border: none;
+    width: 90%;
+    
+    border-radius: 15px;
+    background-color: #3EB25E;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0;
+    
 }
 
 .botao-skip{
