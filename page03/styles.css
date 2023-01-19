@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, ifr);
+    align-items: stretch;
+    grid-template-areas: "box-1 box-2";
+}
+
+.selecionar {
+    display: flex;
+}
+
+#selecao {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background: none;
+    /* border: 0.5px solid black; */
+    border: 1px solid rgba(0, 0, 0, .4);
+    /* opacity: 50%; */
+    border-radius: 15px;
+    height: 40px;
+    width: 100%;
+    
+    text-align: center;
+
+    margin-bottom: 5%;
+    
+    font-size: 27px;
+}
+
+/* ------------------------BOX-1------------------------------ */
+.box-1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-size{
+    width: 80%;
+}
+
+.img-size #imagem01{
+    width: 100%;
+}
+/* ------------------------BOX-2------------------------------- */
+.box-2 {
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    
+    /* border: 1px solid black; */
+}
+
+.formulario {
+    margin-top: 5%;
+    width: 70%;
+    display: block;
+    align-items:baseline;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.text-option{
+    font-size: 50px;
+}
+
+/* -------------------------BOTÕES----------------------------- */
+.link-botao{
+    text-decoration: none;
+}
+
+.text-button{
+    color: #ffff;
+}
+
+.buttons-zone {
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.link-botao1 {
+    display: flex;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin: 10px;
+    border: none;
+    width: 198px;
+    height: 36px;
+    border-radius: 15px;
+    background-color: #3EB25E;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.botao-skip{
+    margin-top: 0%;
+    width: 68%;
+    margin-left: 1%;
+}
+
+/* --------------------------------------------------------------- */
+.txt-status-account {
+    
+    font-size: 26;
+    margin-bottom: 2%;
+}
+
+.txt-operate{
+    margin-bottom: 2%;
+}
+
+.lbl-radio {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.texto-radio {
+    margin-left: 5px;
+    font-size: 26px;
+    font-style: normal;
+}
+
+.tipo_mercado {
+    -webkit-appearance: none;
+    background-color: #3EB25E;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: 50%;
+}
+
+
+.tipo_mercado:hover {
+    opacity: 100%;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Page 03</title>
+</head>
+
+<body>
+    <main class="container">
+        <section class="startImage box-1">
+            <div class="img-size">
+                <img id="imagem01" src="/img/03_pag02.svg" alt="">
+            </div>            
+        </section>
+        <section class="box-2">
+            <form class="formulario" action="">
+                <h2 class="txt-status-account">What is the status of your account?</h2>
+                <select id="selecao" name="create_account">
+                    <option value="false"><p class="text-option">I have not created an account yet.</p> </option>
+                    <option value="true"><p class="text-option">I have created an account!</p></option>
+                </select>
+                <br>
+
+                <h2 class="txt-operate" >In which financial markets do you operate?</h2>
+                <label for="stock_market" class="lbl-radio">
+                    <input id="stock_market" class="tipo_mercado tipo_mercado01" type="radio" name="financial_market"
+                        value="stock_market">
+                    <p class="texto-radio">stock market</p>
+                </label>
+
+                <label for="foreign_exchange" class="lbl-radio">
+                    <input id="foreign_exchange" class="tipo_mercado tipo_mercado02" type="radio"
+                        name="financial_market" value="foreign_exchange">
+                    <p class="texto-radio">foreign exchange</p>
+                </label>
+
+                <label for="commodity" class="lbl-radio">
+                    <input id="commodity" class="tipo_mercado tipo_mercado03" type="radio" name="financial_market"
+                        value="commodity">
+                    <p class="texto-radio">commodity</p>
+                </label>
+
+                <label for="bond_market" class="lbl-radio">
+                    <input id="bond_market" class="tipo_mercado tipo_mercado04" type="radio" name="financial_market"
+                        value="bond_market">
+                    <p class="texto-radio">bond
+                        market</p>
+                </label>
+
+                <label for="cryptocurrency_market" class="lbl-radio">
+                    <input id="cryptocurrency_market" t class="tipo_mercado tipo_mercado05" type="radio"
+                        name="financial_market" value="cryptocurrency_market">
+                    <p class="texto-radio">cryptocurrency market</p>
+                </label>
+
+                <section class="buttons-zone">
+
+                    <a href="/page02/page02.html" class="link-botao">
+                        <div class="button01 button">
+                            <p class="text-button1 text-button">Back</p>
+                        </div>
+                    </a>
+
+                    <a href="/page03/page03.html" class="link-botao">
+                        <button type="submit" class="button02 button">
+                            <p class="text-button2 text-button">Next</p>
+                        </button>
+                    </a>
+                </section>
+            </form>
+            <br>
+            <a href="/index.html" class="link-botao">
+                <div class="button botao-skip">
+                    <p class="text-button3 text-button">Skip</p>
+                </div>
+            </a>
+        </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="efeito_botao.js"></script>
+    
+</body>
+
+</html>
