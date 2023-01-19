@@ -18,9 +18,7 @@ function selecionado(item) {
             }
         }
     })
-
 }
-
 selecionado(item_1);
 // selecionadoHover(item_1);
 
