@@ -83,7 +83,7 @@
 }
 
 .buttons-zone {
-    /* border: 1px solid black; */
+    
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -120,12 +120,15 @@
 
 /* --------------------------------------------------------------- */
 .txt-status-account {
-    
+    width: 100%;
+    text-align: center;
     font-size: 26;
     margin-bottom: 2%;
 }
 
 .txt-operate{
+    width: 100%;
+    text-align: center;
     margin-bottom: 2%;
 }
 
@@ -154,4 +157,435 @@
 
 .tipo_mercado:hover {
     opacity: 100%;
+}
+
+
+/* Correção botão */
+@media screen and (max-width:1206px){
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin: 10px;
+        border: none;
+        width: 178px;
+        height: 36px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 0;
+        margin-left: auto;
+    }
+    
+    .botao-skip{
+        margin-top: 0%;
+        width: 68%;
+        margin-left: 1%;
+    }
+}
+/* Correção botão */
+@media screen and (max-width:1148px){
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin: 10px;
+        border: none;
+        width: 170px;
+        height: 36px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 0;
+        
+    }
+    
+    .botao-skip{
+        height: 35px;
+        margin-top: 0%;
+        width: 68%;
+        margin-left: 1%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin: 10px;
+        border: none;
+        width: 145px;
+        height: 36px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 0;
+        
+    }
+    
+    .botao-skip{
+        height: 35px;
+        margin-top: 0%;
+        width: 68%;
+        margin-left: 1%;
+        margin-bottom: 5%;
+    }
+    
+}
+
+@media screen and (max-width:900px){
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin: 10px;
+        border: none;
+        width: 135px;
+        height: 36px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 0;
+        
+    }
+    
+    .botao-skip{
+        height: 35px;
+        margin-top: 0%;
+        width: 68%;
+        margin-left: 1%;
+        margin-bottom: 5%;
+    }
+
+    .texto-radio{
+        font-size: 20px;
+    }
+
+    #selecao {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+        background: none;
+        /* border: 0.5px solid black; */
+        border: 1px solid rgba(0, 0, 0, .4);
+        /* opacity: 50%; */
+        border-radius: 15px;
+        height: 40px;
+        width: 100%;
+        
+        text-align: center;
+    
+        margin-bottom: 5%;
+        
+        font-size: 18px;
+    }
+
+    .txt-status-account, .txt-operate{
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width:850px){
+    .box-2 {
+        display:flexbox;
+        justify-content:right;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+
+    .formulario {
+        margin-top: 5%;
+        width: 70%;
+        display:block;
+        margin-left: 20%;
+        /* border: 1px solid black; */
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin: 5px;
+        border: none;
+        width: 115px;
+        height: 36px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 0;
+        
+    }
+    
+    .botao-skip{
+        height: 35px;
+        margin-top: 0%;
+        width: 68%;
+        margin-left: 21%;
+        margin-bottom: 5%;
+    }
+
+    .texto-radio{
+        font-size: 18px;
+    }
+
+    #selecao {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+        background: none;
+        /* border: 0.5px solid black; */
+        border: 1px solid rgba(0, 0, 0, .4);
+        /* opacity: 50%; */
+        border-radius: 15px;
+        height: 40px;
+        width: 100%;
+        
+        text-align: center;
+    
+        margin-bottom: 5%;
+        
+        font-size: 14px;
+    }
+
+    .txt-status-account, .txt-operate{
+        font-size: 18px;
+    }
+    
+    .text-button{
+        font-size: 16px;
+    }
+
+    
+}
+
+@media screen and (max-width:750px){
+    .box-2 {
+        display:flexbox;
+        justify-content:right;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+
+    .formulario {
+        margin-top: 5%;
+        width: 70%;
+        display:block;
+        margin-left: 20%;
+        /* border: 1px solid black; */
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin: 3px;
+        border: none;
+        width: 115px;
+        height: 36px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 0;
+        
+    }
+    
+    .botao-skip{
+        height: 35px;
+        margin-top: 0%;
+        width: 68%;
+        margin-left: 21%;
+        margin-bottom: 5%;
+    }
+
+    .texto-radio{
+        font-size: 18px;
+    }
+
+    #selecao {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+        background: none;
+        /* border: 0.5px solid black; */
+        border: 1px solid rgba(0, 0, 0, .4);
+        /* opacity: 50%; */
+        border-radius: 15px;
+        height: 40px;
+        width: 100%;
+        
+        text-align: center;
+    
+        margin-bottom: 5%;
+        
+        font-size: 14px;
+    }
+
+    .txt-status-account, .txt-operate{
+        font-size: 18px;
+    }
+    
+    .text-button{
+        font-size: 16px;
+    }
+
+    
+}
+
+@media screen and (max-width:650px){
+    .box-2 {
+        display:block;
+        justify-content:right;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+
+    .formulario {
+        margin-top: 5%;
+        width: 70%;
+        margin-left: 15%;
+        display:block;
+        
+        /* border: 1px solid black; */
+    }
+
+    .buttons-zone {
+        
+        margin-top: 50px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .link-botao{
+        width: 50%;
+    }
+    /* .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin: 3px;
+        border: none;
+        width: 90%;
+        height: 36px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 0;
+        
+    } */
+
+    .button01 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 50px; */
+        
+        margin-right: 5%;
+        border: none;
+        width: 100%;
+        height: 26px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 0;
+        
+    }
+
+    .button02 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 50px; */
+        margin-left: 7%;
+        border: none;
+        width: 90%;
+        height: 26px;
+        border-radius: 15px;
+        background-color: #3EB25E;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 0;
+        
+    }
+    
+    .botao-skip{
+        height: 26px;
+        margin-top: 0%;
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+
+    .texto-radio{
+        font-size: 18px;
+    }
+
+    #selecao {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+        background: none;
+        /* border: 0.5px solid black; */
+        border: 1px solid rgba(0, 0, 0, .4);
+        /* opacity: 50%; */
+        border-radius: 15px;
+        height: 33px;
+        width: 100%;
+        
+        text-align: center;
+    
+        margin-bottom: 5%;
+        
+        font-size: 16px;
+    }
+
+    .txt-status-account, .txt-operate{
+        font-size: 18px;
+    }
+    
+    .container {
+        margin-top: 5%;
+        display:block;
+        
+    }
+
+    .text-button{
+        font-size: 16px;
+    }
+
+    
 }
