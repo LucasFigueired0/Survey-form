@@ -288,15 +288,27 @@
     
     .entradas-texto{
        height: 33px;
+       margin-top: 10px;
+       font-size: 16px;
     }
 
     .buttons-zone {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 20px;
         /* border: 1px solid black; */
     }
-    
+
+    .buttons-zone2 {
+        
+        margin-top: 10px;
+        /* border: 1px solid black; */
+    }
+
+    .button{
+        height: 33px;
+    }
     .img-size{
         display: flex;
         align-items: center;
