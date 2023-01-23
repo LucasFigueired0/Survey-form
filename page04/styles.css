@@ -330,6 +330,7 @@
         text-indent: 1px;
         text-overflow: '';
         background: none;
+        background: url(../img/seta.svg) no-repeat center left 20px #FFF;
         /* border: 0.5px solid black; */
         border: 1px solid rgba(0, 0, 0, .4);
         /* opacity: 50%; */
@@ -403,6 +404,7 @@
         text-indent: 1px;
         text-overflow: '';
         background: none;
+        background: url(../img/seta.svg) no-repeat center left 18px #FFF;
         /* border: 0.5px solid black; */
         border: 1px solid rgba(0, 0, 0, .4);
         /* opacity: 50%; */
@@ -481,6 +483,7 @@
         text-indent: 1px;
         text-overflow: '';
         background: none;
+        background: url(../img/seta.svg) no-repeat center left 15px #FFF;
         /* border: 0.5px solid black; */
         border: 1px solid rgba(0, 0, 0, .4);
         /* opacity: 50%; */
@@ -594,6 +597,7 @@
         text-indent: 1px;
         text-overflow: '';
         background: none;
+        background: url(../img/seta.svg) no-repeat center left 15px #FFF;
         /* border: 0.5px solid black; */
         border: 1px solid rgba(0, 0, 0, .4);
         /* opacity: 50%; */
