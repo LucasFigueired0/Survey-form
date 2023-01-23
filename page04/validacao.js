@@ -1,45 +1,39 @@
-let opcoes = document.querySelectorAll(".tipo_mercado");
-let selecoes = document.querySelectorAll(".item-selecao");
+let opcoes = document.querySelectorAll(".caixa-selecao");
+
 
 let input = document.querySelector(".button02");
 let botao_oculto = document.querySelector(".botao-escondido");
 let link_enviar = document.querySelector(".enviar");
 
 let select = document.querySelector("#selecao");
+let cont = 0;
 
 
+input.addEventListener("click", (e) => {
+    e.preventDefault();
+    cont = 0;
 
-input.addEventListener("click", () => {
-    let cont = 0;
-    
-    for (let i in opcoes) {
-        if (opcoes[i].checked === false) {
+    opcoes.forEach(function (el) {
+        if (el.checked) {
             cont++;
         }
-    }
+    });
 
     const indice = select.selectedIndex
     const valor = select.value
     const text = select.options[indice].text
-    console.log(indice);
-    console.log(valor);
-    console.log(text);
 
-    if(text==="--- Select ---"){
-        cont = 5;
+    if (text === "--- Select ---") {
+        cont = 0;
     }
-
-
     console.log(cont);
-    if (cont > 4) {
+    if (cont === 0) {
         alert("Selecione uma opção!");
     }
     else {
         link_enviar.click();
         // botao_oculto.click();
     }
-
-    console.log("Olá, mundo!")
 })
 
 

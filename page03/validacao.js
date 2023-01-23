@@ -21,9 +21,9 @@ input.addEventListener("click", () => {
     const indice = select.selectedIndex
     const valor = select.value
     const text = select.options[indice].text
-    console.log(indice);
-    console.log(valor);
-    console.log(text);
+    // console.log(indice);
+    // console.log(valor);
+    // console.log(text);
 
     if(text==="--- Select ---"){
         cont = 5;
