@@ -7,7 +7,7 @@
 .container {
     margin-top: 5%;
     display: grid;
-    grid-template-columns: repeat(2, ifr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: stretch;
     grid-template-areas: "box-1 box-2";
 }
@@ -38,7 +38,7 @@
 
 /* ------------------------BOX-1------------------------------ */
 .box-1 {
-
+    grid-area: box-1;
     display: flex;
     align-items: center;
     justify-content: center;

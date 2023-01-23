@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Page 06</title>
+</head>
+
+<body>
+    <main class="container">
+        <section class="startImage box-1">
+            <div class="img-size">
+                <img id="imagem01" src="/img/01_pag06.svg" alt="">
+            </div>
+        </section>
+        <section class="box-2">
+            <!-- <div class="conteudo-box-2"></div> -->
+            <form method="post" class="formulario" action="api/posturl">
+
+
+                <div class="area-texto area-texto1">
+                    <div class="nome-texto">
+                        <label for="nome" class="txt-status-account">Full Name:</label><br>
+                        <input class="entradas-texto" type="text" name="nome" id="nome" placeholder="Nasser Toghiri">
+                    </div>
+
+                </div>
+                <div class="area-texto area-texto2">
+                    <div class="nome-texto">
+                        <label for="email" class="txt-status-account">Email:</label><br>
+                        <input class="entradas-texto" type="email" name="email" id="email" placeholder="N.Toghiri@Gmail.com" required>
+                    </div>
+                </div>
+                <div class="area-texto area-texto3">
+                    <div class="nome-texto">
+                        <label for="idade" class="txt-status-account">Age:</label><br>
+                        <input class="entradas-texto" type="number" name="idade" id="idade" placeholder="   -- --">
+                    </div>
+                </div>
+
+                <section class="buttons-zone">
+
+                    <a href="/page05/page05.html" class="link-botao">
+                        <div class="button01 button">
+                            <p class="text-button1 text-button">Back</p>
+                        </div>
+                    </a>
+                </section>
+
+                <section class="buttons-zone buttons-zone2">
+
+                    <a href="#" class="link-botao link-submit">
+                        <div class="button02 button">
+                            <p class="text-button2 text-button">submit</p>
+                        </div>
+                    </a>
+                    <a class="enviar" href="#">
+                        <input type="submit" value="Enviar form" class="botao-escondido">
+                    </a>
+                </section>
+
+                
+            </form>
+            <br>
+            <!-- <a href="/index.html" class="link-botao link-botao2">
+                <div class="button botao-skip">
+                    <p class="text-button3 text-button">Skip</p>
+                </div>
+            </a> -->
+        </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="../efeito_botao.js"></script>
+    <script src="validacao.js"></script>
+
+</body>
+
+</html>

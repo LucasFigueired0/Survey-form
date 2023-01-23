@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Page 05</title>
+</head>
+
+<body>
+    <main class="container">
+        <section class="startImage box-1">
+            <div class="img-size">
+                <img id="imagem01" src="/img/01_pag05.svg" alt="">
+            </div>
+        </section>
+        <section class="box-2">
+            <!-- <div class="conteudo-box-2"></div> -->
+            <form method="post" class="formulario" action="api/posturl">
+
+                <div class="titulo00">
+                    <div class="titulo01">
+                        <h2 class="txt-status-account">If you or someone close to you has already made a loss on the
+                        investment,
+                        write down the details?</h2>
+                    </div>                    
+                </div>
+
+                <div class="area-texto">
+                    <textarea name="campo-texto" id="campo-texto" cols="50" rows="15" required></textarea>
+                </div>
+
+                <section class="buttons-zone">
+
+                    <a href="/page04/page04.html" class="link-botao">
+                        <div class="button01 button">
+                            <p class="text-button1 text-button">Back</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="link-botao link-submit">
+                        <div class="button02 button">
+                            <p class="text-button2 text-button">Next</p>
+                        </div>
+                    </a>
+                    <a class="enviar" href="#">
+                        <input type="submit" value="Enviar form" class="botao-escondido">
+                    </a>
+                </section>
+            </form>
+            <br>
+            <a href="../page06 /page06.html" class="link-botao link-botao2">
+                <div class="button botao-skip">
+                    <p class="text-button3 text-button">Skip</p>
+                </div>
+            </a>
+        </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="../efeito_botao.js"></script>
+    <script src="validacao.js"></script>
+
+</body>
+
+</html>

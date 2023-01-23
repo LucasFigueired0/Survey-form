@@ -37,12 +37,3 @@ input.addEventListener("click", (e) => {
 })
 
 
-function validateForm(form) {
-    if (valueIsEmpty(form.getValue("create_account"))) {
-        throw "Necessário selecionar o Estado";
-    }
-}
-
-function valueIsEmpty(value) {
-    return value == null || value == "";
-}
