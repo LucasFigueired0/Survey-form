@@ -2,6 +2,8 @@ let botao = document.querySelector('.button');
 let botao2 = document.querySelector('.button02');
 let botao3 = document.querySelector('.botao-skip');
 
+
+
 let texto01 = document.querySelector('.text-button1');
 let texto02 = document.querySelector('.text-button2');
 let texto03 = document.querySelector('.text-button3');

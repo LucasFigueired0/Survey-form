@@ -19,18 +19,24 @@
         <section class="startImage box-1">
             <div class="img-size">
                 <img id="imagem01" src="/img/03_pag02.svg" alt="">
-            </div>            
+            </div>
         </section>
         <section class="box-2">
-            <form class="formulario" action="">
+            <form method="get" class="formulario" action="api/posturl">
                 <h2 class="txt-status-account">What is the status of your account?</h2>
-                <select id="selecao" name="create_account">
-                    <option value="false"><p class="text-option">I have not created an account yet.</p> </option>
-                    <option value="true"><p class="text-option">I have created an account!</p></option>
-                </select>
+                <div>
+                    <select id="selecao" name="create_account" required>
+                        <option value=""><p class="text-option">--- Select ---</p></option>
+                        <option class="item_selecao" value="No create account">
+                            <p class="text-option">I have not created an account yet.</p>
+                        </option>
+                        <option class="item_selecao" value="Create account">
+                            <p class="text-option">I have created an account!</p>
+                        </option>
+                    </select>
+                </div>
                 <br>
-
-                <h2 class="txt-operate" >In which financial markets do you operate?</h2>
+                <h2 class="txt-operate">In which financial markets do you operate?</h2>
                 <label for="stock_market" class="lbl-radio">
                     <input id="stock_market" class="tipo_mercado tipo_mercado01" type="radio" name="financial_market"
                         value="stock_market">
@@ -70,10 +76,13 @@
                         </div>
                     </a>
 
-                    <a href="/page03/page03.html" class="link-botao">
-                        <button type="submit" class="button02 button">
+                    <a href="#" class="link-botao link-submit">
+                        <div class="button02 button">
                             <p class="text-button2 text-button">Next</p>
-                        </button>
+                        </div>
+                    </a>
+                    <a class="enviar" href="../index.html">
+                        <input type="submit" value="Enviar form" class="botao-escondido">
                     </a>
                 </section>
             </form>
@@ -87,7 +96,8 @@
     </main>
     <script src="index.js"></script>
     <script src="../efeito_botao.js"></script>
-    
+    <script src="validacao.js"></script>
+
 </body>
 
 </html>

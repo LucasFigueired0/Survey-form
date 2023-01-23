@@ -28,11 +28,11 @@
     border-radius: 15px;
     height: 40px;
     width: 100%;
-    
+
     text-align: center;
 
     margin-bottom: 5%;
-    
+
     font-size: 27px;
 }
 
@@ -44,19 +44,20 @@
     justify-content: center;
 }
 
-.img-size{
+.img-size {
     width: 80%;
 }
 
-.img-size #imagem01{
+.img-size #imagem01 {
     width: 100%;
 }
+
 /* ------------------------BOX-2------------------------------- */
 .box-2 {
-    display:flexbox;
+    display: flexbox;
     justify-content: center;
     align-items: center;
-    
+
     /* border: 1px solid black; */
 }
 
@@ -64,30 +65,30 @@
     margin-top: 5%;
     width: 70%;
     display: block;
-    align-items:baseline;
+    align-items: baseline;
     justify-content: center;
     /* border: 1px solid black; */
 }
 
-.text-option{
+.text-option {
     font-size: 50px;
 }
 
 /* -------------------------BOTÕES----------------------------- */
-.link-botao{
+.link-botao {
     text-decoration: none;
 }
 
-.text-button{
+.text-button {
     color: #ffff;
 }
 
 .buttons-zone {
-    
+
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .link-botao1 {
@@ -95,7 +96,7 @@
     text-decoration: none;
 }
 
-.link-botao{
+.link-botao {
     width: 50%
 }
 
@@ -121,18 +122,18 @@
     justify-content: center;
     align-items: center;
     /* margin-top: 50px; */
-    
+
     margin-right: 5%;
     border: none;
     width: 100%;
-   
+
     border-radius: 15px;
     background-color: #3EB25E;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     margin-bottom: 0;
-    
+
 }
 
 .button02 {
@@ -143,17 +144,17 @@
     margin-left: 7%;
     border: none;
     width: 90%;
-    
+
     border-radius: 15px;
     background-color: #3EB25E;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     margin-bottom: 0;
-    
+
 }
 
-.botao-skip{
+.botao-skip {
     margin-top: 0%;
     width: 68%;
     margin-left: 1%;
@@ -162,14 +163,14 @@
 /* --------------------------------------------------------------- */
 .txt-status-account {
     width: 100%;
-    text-align:left;
+    text-align: left;
     font-size: 26;
     margin-bottom: 2%;
 }
 
-.txt-operate{
+.txt-operate {
     width: 100%;
-    text-align:left;
+    text-align: left;
     margin-bottom: 2%;
 }
 
@@ -200,9 +201,11 @@
     opacity: 100%;
 }
 
-
+.botao-escondido{
+    display: none;
+}
 /* Correção botão */
-@media screen and (max-width:1206px){
+@media screen and (max-width:1206px) {
     .button {
         display: flex;
         justify-content: center;
@@ -220,15 +223,16 @@
         margin-bottom: 0;
         margin-left: auto;
     }
-    
-    .botao-skip{
+
+    .botao-skip {
         margin-top: 0%;
         width: 68%;
         margin-left: 1%;
     }
 }
+
 /* Correção botão */
-@media screen and (max-width:1148px){
+@media screen and (max-width:1148px) {
     .button {
         display: flex;
         justify-content: center;
@@ -244,10 +248,10 @@
         font-weight: bold;
         font-size: 22px;
         margin-bottom: 0;
-        
+
     }
-    
-    .botao-skip{
+
+    .botao-skip {
         height: 35px;
         margin-top: 0%;
         width: 68%;
@@ -256,7 +260,7 @@
     }
 }
 
-@media screen and (max-width:1100px){
+@media screen and (max-width:1100px) {
     .button {
         display: flex;
         justify-content: center;
@@ -272,20 +276,20 @@
         font-weight: bold;
         font-size: 22px;
         margin-bottom: 0;
-        
+
     }
-    
-    .botao-skip{
+
+    .botao-skip {
         height: 35px;
         margin-top: 0%;
         width: 68%;
         margin-left: 1%;
         margin-bottom: 5%;
     }
-    
+
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:900px) {
     .button {
         display: flex;
         justify-content: center;
@@ -301,10 +305,10 @@
         font-weight: bold;
         font-size: 22px;
         margin-bottom: 0;
-        
+
     }
-    
-    .botao-skip{
+
+    .botao-skip {
         height: 35px;
         margin-top: 0%;
         width: 68%;
@@ -312,7 +316,7 @@
         margin-bottom: 5%;
     }
 
-    .texto-radio{
+    .texto-radio {
         font-size: 20px;
     }
 
@@ -328,24 +332,25 @@
         border-radius: 15px;
         height: 40px;
         width: 100%;
-        
+
         text-align: center;
-    
+
         margin-bottom: 5%;
-        
+
         font-size: 18px;
     }
 
-    .txt-status-account, .txt-operate{
+    .txt-status-account,
+    .txt-operate {
         font-size: 20px;
     }
-    
+
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width:850px) {
     .box-2 {
-        display:flexbox;
-        justify-content:right;
+        display: flexbox;
+        justify-content: right;
         align-items: center;
         /* border: 1px solid black; */
     }
@@ -353,7 +358,7 @@
     .formulario {
         margin-top: 5%;
         width: 70%;
-        display:block;
+        display: block;
         margin-left: 20%;
         /* border: 1px solid black; */
     }
@@ -373,10 +378,10 @@
         font-weight: bold;
         font-size: 22px;
         margin-bottom: 0;
-        
+
     }
-    
-    .botao-skip{
+
+    .botao-skip {
         height: 35px;
         margin-top: 0%;
         width: 68%;
@@ -384,7 +389,7 @@
         margin-bottom: 5%;
     }
 
-    .texto-radio{
+    .texto-radio {
         font-size: 18px;
     }
 
@@ -400,29 +405,30 @@
         border-radius: 15px;
         height: 40px;
         width: 100%;
-        
+
         text-align: center;
-    
+
         margin-bottom: 5%;
-        
+
         font-size: 14px;
     }
 
-    .txt-status-account, .txt-operate{
+    .txt-status-account,
+    .txt-operate {
         font-size: 18px;
     }
-    
-    .text-button{
+
+    .text-button {
         font-size: 16px;
     }
 
-    
+
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:750px) {
     .box-2 {
-        display:flexbox;
-        justify-content:right;
+        display: flexbox;
+        justify-content: right;
         align-items: center;
         /* border: 1px solid black; */
     }
@@ -430,7 +436,7 @@
     .formulario {
         margin-top: 5%;
         width: 70%;
-        display:block;
+        display: block;
         margin-left: 20%;
         /* border: 1px solid black; */
     }
@@ -450,10 +456,10 @@
         font-weight: bold;
         font-size: 22px;
         margin-bottom: 0;
-        
+
     }
-    
-    .botao-skip{
+
+    .botao-skip {
         height: 35px;
         margin-top: 0%;
         width: 68%;
@@ -461,7 +467,7 @@
         margin-bottom: 5%;
     }
 
-    .texto-radio{
+    .texto-radio {
         font-size: 18px;
     }
 
@@ -477,29 +483,30 @@
         border-radius: 15px;
         height: 40px;
         width: 100%;
-        
+
         text-align: center;
-    
+
         margin-bottom: 5%;
-        
+
         font-size: 14px;
     }
 
-    .txt-status-account, .txt-operate{
+    .txt-status-account,
+    .txt-operate {
         font-size: 18px;
     }
-    
-    .text-button{
+
+    .text-button {
         font-size: 16px;
     }
 
-    
+
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:650px) {
     .box-2 {
-        display:block;
-        justify-content:right;
+        display: block;
+        justify-content: right;
         align-items: center;
         /* border: 1px solid black; */
     }
@@ -508,23 +515,23 @@
         margin-top: 5%;
         width: 70%;
         margin-left: 15%;
-        display:block;
-        
+        display: block;
+
         /* border: 1px solid black; */
     }
 
     .buttons-zone {
-        
+
         margin-top: 50px;
         margin: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
-        
+
     }
 
-    .link-botao{
+    .link-botao {
         width: 50%;
     }
 
@@ -533,7 +540,7 @@
         justify-content: center;
         align-items: center;
         /* margin-top: 50px; */
-        
+
         margin-right: 5%;
         border: none;
         width: 100%;
@@ -544,7 +551,7 @@
         font-weight: bold;
         font-size: 22px;
         margin-bottom: 0;
-        
+
     }
 
     .button02 {
@@ -562,10 +569,10 @@
         font-weight: bold;
         font-size: 22px;
         margin-bottom: 0;
-        
+
     }
-    
-    .botao-skip{
+
+    .botao-skip {
         height: 26px;
         margin-top: 0%;
         width: 70%;
@@ -573,7 +580,7 @@
         margin-bottom: 5%;
     }
 
-    .texto-radio{
+    .texto-radio {
         font-size: 18px;
     }
 
@@ -589,28 +596,28 @@
         border-radius: 15px;
         height: 33px;
         width: 100%;
-        
+
         text-align: center;
-    
+
         margin-bottom: 5%;
-        
+
         font-size: 16px;
     }
 
-    .txt-status-account, .txt-operate{
+    .txt-status-account,
+    .txt-operate {
         text-align: center;
         font-size: 18px;
     }
-    
+
     .container {
         margin-top: 5%;
-        display:block;
-        
+        display: block;
+
     }
 
-    .text-button{
+    .text-button {
         font-size: 16px;
     }
-
-    
 }
+
