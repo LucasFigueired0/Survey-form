@@ -11,62 +11,58 @@
 
     <link rel="stylesheet" href="styles.css">
 
-    <title>Page 03</title>
+    <title>Page 04</title>
 </head>
 
 <body>
     <main class="container">
         <section class="startImage box-1">
             <div class="img-size">
-                <img id="imagem01" src="/img/03_pag02.svg" alt="">
+                <img id="imagem01" src="/img/01_pag04.svg" alt="">
             </div>
         </section>
         <section class="box-2">
             <form method="get" class="formulario" action="api/posturl">
-                <h2 class="txt-status-account">What is the status of your account?</h2>
+                <h2 class="txt-status-account">How do you decide to invest?</h2>
                 <div>
                     <select id="selecao" name="create_account" required>
-                        <option value=""><p class="text-option">--- Select ---</p></option>
+                        <option value="">
+                            <p class="text-option">--- Select ---</p>
+                        </option>
                         <option class="item_selecao" value="No create account">
-                            <p class="text-option">I have not created an account yet.</p>
+                            <p class="text-option">I have not invested yet.</p>
                         </option>
                         <option class="item_selecao" value="Create account">
-                            <p class="text-option">I have created an account!</p>
+                            <p class="text-option">I have already invested</p>
                         </option>
                     </select>
                 </div>
                 <br>
-                <h2 class="txt-operate">In which financial markets do you operate?</h2>
-                <label for="stock_market" class="lbl-radio">
-                    <input id="stock_market" class="tipo_mercado tipo_mercado01" type="radio" name="financial_market"
-                        value="stock_market">
-                    <p class="texto-radio">stock market</p>
-                </label>
+                <h2 class="txt-operate">What resources have you used or are you using for your training?</h2>
 
-                <label for="foreign_exchange" class="lbl-radio">
-                    <input id="foreign_exchange" class="tipo_mercado tipo_mercado02" type="radio"
-                        name="financial_market" value="foreign_exchange">
-                    <p class="texto-radio">foreign exchange</p>
-                </label>
+                <div class="check">
+                    <div class="check-all">
+                        <input value="Books and articles" class="caixa-selecao" type="checkbox" name="resources_training" id="item1">
+                        <label class="texto-check" for="item1">Books and articles</label>
+                    </div>
+                    
+                    <div class="check-all">
+                        <input value="YouTube tutorial videos" class="caixa-selecao" type="checkbox" name="resources_training" id="item2">
+                        <label class="texto-check" for="item2">YouTube tutorial videos</label>
+                    </div>
+                    
+                    <div class="check-all">
+                        <input value="online or face to face courses" class="caixa-selecao" type="checkbox" name="resources_training" id="item3">
+                        <label class="texto-check" for="item3">online or face to face courses</label>
+                    </div>
+                    
+                    <div class="check-all">
+                        <input value="experience with little investment" class="caixa-selecao" type="checkbox" name="resources_training" id="item4">
+                        <label class="texto-check" for="item4">experience with little investment</label>
+                    </div>
+                </div>
 
-                <label for="commodity" class="lbl-radio">
-                    <input id="commodity" class="tipo_mercado tipo_mercado03" type="radio" name="financial_market"
-                        value="commodity">
-                    <p class="texto-radio">commodity</p>
-                </label>
 
-                <label for="bond_market" class="lbl-radio">
-                    <input id="bond_market" class="tipo_mercado tipo_mercado04" type="radio" name="financial_market"
-                        value="bond_market">
-                    <p class="texto-radio">bond
-                        market</p>
-                </label>
-
-                <label for="cryptocurrency_market" class="lbl-radio">
-                    <input id="cryptocurrency_market" t class="tipo_mercado tipo_mercado05" type="radio"
-                        name="financial_market" value="cryptocurrency_market">
-                    <p class="texto-radio">cryptocurrency market</p>
-                </label>
 
                 <section class="buttons-zone">
 
@@ -81,7 +77,7 @@
                             <p class="text-button2 text-button">Next</p>
                         </div>
                     </a>
-                    <a class="enviar" href="../page04/page04.html">
+                    <a class="enviar" href="../index.html">
                         <input type="submit" value="Enviar form" class="botao-escondido">
                     </a>
                 </section>

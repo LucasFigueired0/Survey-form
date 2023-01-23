@@ -54,10 +54,9 @@
 
 /* ------------------------BOX-2------------------------------- */
 .box-2 {
-    display: flexbox;
+    display: block;
     justify-content: center;
     align-items: center;
-
     /* border: 1px solid black; */
 }
 
@@ -65,8 +64,9 @@
     margin-top: 5%;
     width: 70%;
     display: block;
-    align-items: baseline;
+    /* align-items: baseline; */
     justify-content: center;
+    
     /* border: 1px solid black; */
 }
 
@@ -174,37 +174,36 @@
     margin-bottom: 2%;
 }
 
-.lbl-radio {
+.check-all {
     display: flex;
     margin: auto;
     align-items: center;
     margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-.texto-radio {
+.texto-check {
     margin-left: 5px;
     font-size: 26px;
     font-style: normal;
 }
 
-.tipo_mercado {
+.caixa-selecao {
     -webkit-appearance: none;
     background-color: #3EB25E;
     width: 20px;
     height: 20px;
-    border-radius: 50%;
     opacity: 50%;
 }
 
 
-.tipo_mercado:hover {
+.caixa-selecao:hover {
     opacity: 100%;
 }
 
-.tipo_mercado:checked{
+.caixa-selecao:checked{
     opacity: 100%;
 }
-
 .botao-escondido{
     display: none;
 }
@@ -320,7 +319,7 @@
         margin-bottom: 5%;
     }
 
-    .texto-radio {
+    .texto-check {
         font-size: 20px;
     }
 
@@ -393,7 +392,7 @@
         margin-bottom: 5%;
     }
 
-    .texto-radio {
+    .texto-check {
         font-size: 18px;
     }
 
@@ -471,7 +470,7 @@
         margin-bottom: 5%;
     }
 
-    .texto-radio {
+    .texto-check {
         font-size: 18px;
     }
 
@@ -584,7 +583,7 @@
         margin-bottom: 5%;
     }
 
-    .texto-radio {
+    .texto-check {
         font-size: 18px;
     }
 
