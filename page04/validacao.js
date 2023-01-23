@@ -28,7 +28,7 @@ input.addEventListener("click", (e) => {
     }
     console.log(cont);
     if (cont === 0) {
-        alert("Selecione uma opção!");
+        alert("Select an option!");
     }
     else {
         link_enviar.click();

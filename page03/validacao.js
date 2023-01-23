@@ -32,7 +32,7 @@ input.addEventListener("click", () => {
 
     console.log(cont);
     if (cont > 4) {
-        alert("Selecione uma opção!");
+        alert("Select an option!");
     }
     else {
         link_enviar.click();
@@ -41,14 +41,3 @@ input.addEventListener("click", () => {
 
     console.log("Olá, mundo!")
 })
-
-
-function validateForm(form) {
-    if (valueIsEmpty(form.getValue("create_account"))) {
-        throw "Necessário selecionar o Estado";
-    }
-}
-
-function valueIsEmpty(value) {
-    return value == null || value == "";
-}

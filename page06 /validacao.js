@@ -35,6 +35,7 @@ input.addEventListener("click", (e) => {
         alert("Age cannot be higher than 120!");
     }
     else{
+        alert("Sucess!");
         link_enviar.click();
     }
     
